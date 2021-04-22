@@ -43,6 +43,7 @@ render() {
       id="search"
       onChange={this.handleInputChange}
     />
+    <button onClick={this.handleSort}>Sort alphabetically</button>
     <Table users={this.state.searched} />
     </div>
   )
