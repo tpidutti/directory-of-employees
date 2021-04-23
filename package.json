@@ -14,11 +14,9 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+   
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "homepage": "https://tpidutti.github.io/directory-of-employees",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
