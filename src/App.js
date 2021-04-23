@@ -30,11 +30,12 @@ render() {
   console.log(this.state);
   return (
     <div>
-    <nav className="navbar navbar-light bg-light">
-      <div className="container-fluid">
-        <span className="navbar-brand mb-0 h1">Employee Directory</span>
+    <nav className="navbar navbar-light bg-info">
+      <div className="container-fluid justify-content-center">
+        <span className="title h1">Employee Directory</span>
       </div>
     </nav>
+
     <input
       name="searchText"
       type="search"
@@ -43,7 +44,9 @@ render() {
       id="search"
       onChange={this.handleInputChange}
     />
-    <button onClick={this.handleSort}>Sort alphabetically</button>
+
+    <button className="btn btn-success" onClick={this.handleSort}>Sort alphabetically</button>
+
     <Table users={this.state.searched} />
     </div>
   )
