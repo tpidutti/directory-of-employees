@@ -16,7 +16,7 @@ function Table (props) {
     {props.users.map((data) => {
       return (
         <tr>
-          <td><img src= {data.picture.medium}/></td>
+          <td><img src= {data.picture.medium} alt="people"/></td>
           <td>{data.name.first} {data.name.last}</td>
           <td>{data.phone}</td>
           <td>{data.email}</td>
