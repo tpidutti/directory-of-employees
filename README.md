@@ -5,8 +5,9 @@
 This application is an employee directory.
 
 
-()
+Deployed site (https://theresapidutti-employee-directory.netlify.app/)
 
+![react employee directory](/reactEmployee.png)
 
 ## Table of Contents
 
